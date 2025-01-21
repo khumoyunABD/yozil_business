@@ -1,0 +1,10 @@
+export 'app/app.dart';
+export 'appointments/appointments.dart';
+export 'booking_history/booking_history.dart';
+export 'control/control.dart';
+export 'registration/registration.dart';
+export 'schedule/schedule.dart';
+export 'settings/settings.dart';
+export 'shop/shop.dart';
+export 'splash/splash.dart';
+export 'user/user.dart';

@@ -5,31 +5,31 @@ class AuthRemoteSourceImpl implements AuthRemoteSource {
 
   @override
   Stream<User?> authStateChanges() {
-    // TODO(Khumoyun): implement authStateChanges
+    // TODO(): implement authStateChanges
     throw UnimplementedError();
   }
 
   @override
   Future<User?> getCurrentUser() {
-    // TODO(Khumoyun): implement getCurrentUser
+    // TODO(): implement getCurrentUser
     throw UnimplementedError();
   }
 
   @override
   Future<User> login(String email, String password) {
-    // TODO(Khumoyun): implement login
+    // TODO(): implement login
     throw UnimplementedError();
   }
 
   @override
   Future<void> logout() {
-    // TODO(Khumoyun): implement logout
+    // TODO(): implement logout
     throw UnimplementedError();
   }
 
   @override
   Future<User> register(String email, String password, String name) {
-    // TODO(Khumoyun): implement register
+    // TODO(): implement register
     throw UnimplementedError();
   }
 }

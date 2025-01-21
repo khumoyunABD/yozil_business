@@ -7,16 +7,9 @@ import 'package:yozil_business/presentation/bloc/auth/auth_bloc.dart';
 final sl = GetIt.instance;
 
 Future<void> initializeDependencies() async {
-  // Firebase
-  // sl.registerLazySingleton(() => FirebaseAuth.instance);
-  // sl.registerLazySingleton(() => FirebaseFirestore.instance);
-
   // Data Sources
   sl.registerLazySingleton<AuthRemoteSource>(
-    () => AuthRemoteSourceImpl(
-        // sl<FirebaseAuth>(),
-        // sl<FirebaseFirestore>(),
-        ),
+    () => AuthRemoteSourceImpl(),
   );
 
   // Repositories
